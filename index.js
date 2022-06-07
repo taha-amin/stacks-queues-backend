@@ -17,6 +17,7 @@ class Stack {
 
   topItem(item) {
     this.#list.peek(item);
+    //this.#list[this.#list.length - 1]
   }
 
   get readableList() {
