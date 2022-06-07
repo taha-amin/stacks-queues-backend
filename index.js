@@ -19,9 +19,9 @@ class Stack {
     this.#list.peek(item);
   }
 
-  //   get readableList() {
-  //     return this.#list.toString();
-  //   }
+  get readableList() {
+    return this.#list.toString();
+  }
 
   //   get count() {
   //     return this.#list.length;
